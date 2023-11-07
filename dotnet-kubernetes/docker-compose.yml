@@ -9,7 +9,7 @@ services:
       dockerfile: DockerfileStore
     environment: 
       - ProductEndpoint=http://backend:8080
-      - ImagePrefix=http://localhost
+      - ImagePrefix=https://crispy-invention-j9gxx6qwwgp35vjx-5902.app.github.dev/images
     ports:
       - "32000:8080"
     depends_on: 
