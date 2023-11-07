@@ -21,7 +21,7 @@ spec:
         - name: ProductEndpoint
           value: http://productsbackend
         - name: ImagePrefix
-          value: http://localhost/images
+          value: https://crispy-invention-j9gxx6qwwgp35vjx-5902.app.github.dev/images
   selector:
     matchLabels:
       app: storefrontend
